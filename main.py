@@ -150,7 +150,7 @@ pokemon_data = {
         "types": ["물", "악"], 
         "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
         "poke_desc": "바람처럼 민첩하고 날렵하게 움직이는 닌자 형태의 포켓몬입니다. 물을 높은 압력으로 압축해 수리검을 만들어 발사하는 기민하고 정교한 파이팅 능력을 자랑합니다.",
-        "match_desc": "조용하지만 실용적인 감각이 발달해 뛰어난 도구 활용과 위기대처 능력을 보여주는 당신! 혼자 행동할 때 최고의 효율을 발휘하는 쿨한 기질이 개굴닌자의 프로페셔널한 액션과 똑 닮았습니다."
+        "match_desc": "조용이지만 실용적인 감각이 발달해 뛰어난 도구 활용과 위기대처 능력을 보여주는 당신! 혼자 행동할 때 최고의 효율을 발휘하는 쿨한 기질이 개굴닌자의 프로페셔널한 액션과 똑 닮았습니다."
     },
     "ENFP": {
         "name": "이브이 (Eevee)", 
@@ -379,7 +379,7 @@ if user_mbti != "-- 선택해주세요 --":
         st.markdown(copy_and_share_html, unsafe_allow_html=True)
 
 else:
-    # 최초 진입 시 보여주는 다크 테마 안내 상자 (이전 누락분 수정 완료)
+    # 최초 진입 시 보여주는 다크 테마 안내 상자
     st.markdown("""
     <div style="
         background-color: #1A1D24; 
